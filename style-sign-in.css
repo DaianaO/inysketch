@@ -1,0 +1,467 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+   background-color: rgb(50, 201, 168);
+}
+
+.col-1, .col-2, .col-3 {
+    display: grid;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.col-1>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    margin: 0px 0 0 10px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 0 0px;
+    gap: 20px;
+}
+
+ .login-button1:hover, .login-button2:hover {
+    background-color: #555; /* Example hover effect */
+    color: #f8f6f6; /* Example hover effect */
+}
+
+.banner-button:hover{
+    color: #f8f6f6; /* Example hover effect */
+}
+
+.banner-button {
+    background-color: transparent;
+    color: rgb(34, 35, 36);
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+.login-buttons {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 0 0 0px;
+}
+
+
+.login-button1 {
+    background-color: transparent;
+    color: rgb(34, 35, 36);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 70px;
+}
+
+.login-button2 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 70px;
+}
+
+
+.body-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    height: 900px;
+    width: 1000px;
+    box-sizing: border-box;
+    position: static;
+    background-image: linear-gradient(to right, rgb(217, 248, 241), rgba(219, 30, 30, 0));
+    margin: 0 auto; 
+    margin-top: 40px;;
+    text-align: center; 
+}
+
+.left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    right: -150px;
+    }
+    
+
+.logos{
+    box-sizing: border-box;
+    position: relative;
+    right: 20px;
+    top: -410px;
+    
+}
+
+.img1 img{
+    width: 200px;
+    right: 100px;
+    opacity: 70%;
+    z-index: 1;
+   
+}
+
+
+.text1{
+    position: absolute;
+    bottom: 150px;
+    right: 160px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: #02735E;
+}
+
+.first-letter1{
+    top: 20px;
+    right: 20px ;
+}
+
+.word-letters1{
+    top: -23px;
+    right: -20%;
+}
+
+.mock{
+    box-sizing: border-box;
+    position: relative;
+    right: -300px;
+    top: -350px;
+    
+}
+
+.img2 img{
+    position: absolute;
+    width: 260px;
+    right: 200px;
+    opacity: 80%;
+    z-index: 2;
+}
+
+.text2{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: #02735E;
+}
+
+.first-letter2{
+    top: 0px;
+    right: 200px ;
+}
+
+.word-letters2{
+    display: block;
+    top: -33px;
+    right: 130%;
+    width: 100px;
+}
+
+.illus{
+    box-sizing: border-box;
+    position: relative;
+    width: 20%;
+    right: -20px;
+    top: -320px;
+}
+
+.img3 img{
+    position: absolute;
+    width: 200px;
+    right: 150px;
+    opacity: 40%;
+}
+
+.text3{
+    position: absolute;
+    bottom: -230px;
+    right: 55px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: #02735E;
+    width: 200px;
+}
+
+.first-letter3{
+    top: -50px;
+    right: 150px ;
+}
+
+.word-letters3{
+    top: -50px;
+    right: 160px;
+    z-index: 3;
+}
+
+.doodles{
+    box-sizing: border-box;
+    position: relative;
+    width: 20%;
+    right: -60px;
+    top: -150px;
+
+}
+
+.img4 img{
+    position: absolute;
+    width: 250px;
+    right: 100px;
+    z-index: 0;
+    opacity: 50%;
+}
+
+.text4{
+    position: absolute;
+    bottom: -210px;
+    right: 15%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: #02735E;
+    width: 200px;
+    z-index: 2;
+}
+
+.first-letter4{
+    top: 10px;
+    right: 230px;
+}
+
+.word-letters4{
+    top: 10px;
+    right: 240px;
+}
+
+.sketch{
+    box-sizing: border-box;
+    position: relative;
+    width: 20%;
+    right: -100px;
+    top: -200px;
+}
+
+.img5 img{
+    position: absolute;
+    width: 200px;
+    right: 100px;
+    opacity: 80%;
+    z-index: 3;
+}
+
+.text5{
+    position: absolute;
+    bottom: -170px;
+    right: -210px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: #02735E;
+    width: 200px;
+}
+
+.first-letter5{
+    top: -60px;
+    right: 125px ;
+}
+
+.word-letters5{
+    top: -60px;
+    right: 135px
+}
+
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sketch2{
+    box-sizing: border-box;
+    position: relative;
+    width: 20%;
+    right: -50px;
+    top: -250px;
+}
+.img6 img{
+    position: absolute;
+    width: 800px;
+    right: -400px;
+    top: -200px;
+    opacity: 40%;
+    z-index: -1;
+}
+
+.text6{
+    position: absolute;
+    top: 920px;
+    left: 50%; /* Move the div's left edge to the center of the page */
+    transform: translateX(-50%); /* Shift the div back to perfectly center it horizontally */
+}
+
+.join{
+    color: #02735E;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 70px;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    width: 400px;
+}
+
+.join:hover{
+    background-color: #02735E;
+    color: #f8f6f6 ; 
+}
+
+.left-container img{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5); /* Shadow fading effect around the image */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+[class^="text"]{
+    opacity: 100%;
+}
+
+[class^="first-letter"]{
+    font-size: 60px;
+    position: relative; 
+}
+
+[class^="word-letters"]{
+    font-size: 20px;
+    position: relative;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10rem 0 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: rgb(249, 240, 247);
+}
+
+.landing-page{
+    position: relative;
+    opacity: 40%;
+}
+
+.container {
+    position: absolute;
+    top: 50%; /* Position the overlay in the middle of the container */
+    left: 50%; /* Move it horizontally to the center */
+    transform: translate(-50%, -50%); /* Adjust it back to truly center it */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 45rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    background-color: #02735E80;
+}
+
+.inside-box {
+    display: block;
+    padding: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 420px;
+    background-color:  rgb(217, 248, 241);
+    opacity: 100%;
+}
+
+.title {
+    padding-bottom: 20px;
+
+}
+
+.title-p {
+    width: 350px;
+}
+
+h2 {
+    margin: 10px 0 10px 0;
+}
+
+p {
+    margin: 7px 0 7px 0;
+    color: darkslategrey;
+    font-size: 13px;
+
+}
+
+.name {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.email {
+    display: inline-block;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    background-color: rgb(23, 23, 23);
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    /* text-decoration: none;
+    display: inline-block; */
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 410px;
+}
